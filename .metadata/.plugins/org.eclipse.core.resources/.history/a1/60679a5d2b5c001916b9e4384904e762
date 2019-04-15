@@ -1,0 +1,12 @@
+package io.caoxx123.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+public class ProductController {
+public ModelAndView add() {
+	ModelAndView mav=new ModelAndView("showProduct");
+	return mav;
+}
+}

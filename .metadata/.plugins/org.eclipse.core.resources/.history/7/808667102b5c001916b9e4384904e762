@@ -1,0 +1,6 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8" import="java.util.*" isELIgnored="false"%>
+<form action="addProduct">
+产品名称：<input type="text" name="name" >
+产品价格：
+</form>

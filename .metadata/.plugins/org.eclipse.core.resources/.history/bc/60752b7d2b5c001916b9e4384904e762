@@ -1,0 +1,14 @@
+package io.caoxx123.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+public class ProductController {
+@RequestMapping("add")
+public ModelAndView add() {
+	ModelAndView mav=new ModelAndView("showProduct");
+	return mav;
+}
+}

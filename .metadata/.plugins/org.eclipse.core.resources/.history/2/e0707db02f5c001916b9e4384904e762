@@ -1,0 +1,16 @@
+package io.caoxx123.controller;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.servlet.ModelAndView;
+
+import io.caoxx123.pojo.UploadedImageFile;
+
+@Controller
+public class UploadController {
+	public ModelAndView upload(HttpServletRequest request, UploadedImageFile uploadedImageFile) {
+	ModelAndView mav=new ModelAndView("");
+	return mav;
+	}
+}
